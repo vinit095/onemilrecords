@@ -14,7 +14,7 @@ It's a basic project to upload millions of records from csv via Queue job and al
 
 ## Property API collection
 
-This project also contains "API's for complete "CRUD" of "property" and "broker". you can check them out too.
+This project also contains "API's for complete "CRUD" of "property" and "broker". You can check them out too.
 
 ## License
 
