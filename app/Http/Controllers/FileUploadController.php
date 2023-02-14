@@ -41,7 +41,7 @@ class FileUploadController extends Controller
             unset($data[0], $data[1], $data[2], $data[3], $data[4]);
 
             // Chunking the data 
-            $chunks = array_chunk($data, 100);
+            $chunks = array_chunk($data, 1000);
             $header = [];
             $batch = Bus::batch([])->dispatch();
             foreach ($chunks as $key => $chunk) {
